@@ -1,0 +1,22 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hai-Ngo-Truong/node-app.git"
+  },
+  "author": "Hai-Ngo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hai-Ngo-Truong/node-app/issues"
+  },
+  "homepage": "https://github.com/Hai-Ngo-Truong/node-app#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
