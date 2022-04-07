@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:8-alpine
 
 
 # Create app directory
@@ -16,5 +16,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 CMD [ "node", "server.js" ]

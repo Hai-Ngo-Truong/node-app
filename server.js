@@ -1,16 +1,13 @@
-'use strict';
+// server.js
 
-const express = require('express');
+const express = require('express')
+const app = express()
 
-// Constants
-const PORT = 8080;
-const HOST = '0.0.0.0';
-
-// App
-const app = express();
 app.get('/', (req, res) => {
   res.send('<h1 style="color:green;">Welcome to the leage of Draven!!</h1> \n');
 });
 
-app.listen(PORT);
-console.log(`Running on http://${HOST}:${PORT}`);
+
+app.listen(3000, () => {
+    console.log('Server is up on 3000')
+})
